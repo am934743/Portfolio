@@ -47,12 +47,6 @@ gulp.task('vendor', function() {
     ])
     .pipe(gulp.dest('./vendor/jquery-easing'))
 
-    // jQuery UI 
-    gulp.src([
-      './node_modules/jquery-ui-dist/jquery-ui.min.js',
-      './node_modules/jquery-ui-dist/jquery-ui.min.css'
-      ])
-    .pipe(gulp.dest('./vendor/jquery-ui-dist'))
 
 });
 

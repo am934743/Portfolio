@@ -94,7 +94,7 @@ p.lead {
   text-transform: uppercase;
 }
 
-#sideNav .navbar-nav .nav-item .nav-link:active, #sideNav .navbar-nav .nav-item .nav-link:hover {
+#sideNav .navbar-nav .nav-item .nav-link:hover {
   color: #d2a84c !important;
 }
 
