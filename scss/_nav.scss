@@ -9,6 +9,7 @@
     }
   }
   .navbar-toggler {
+  float:right;
     &:focus {
       outline-color: lighten($primary, 15%);
     }
@@ -57,5 +58,15 @@
         }
       }
     }
+  }
+}
+
+.logoImage {
+  width:100%;
+}
+
+@media (max-width: 991.98px) {
+  .navbar-brand {
+    width:50%;
   }
 }

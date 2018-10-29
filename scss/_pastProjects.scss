@@ -1,0 +1,28 @@
+#portfolio {
+	max-width:100vw;
+
+	ul {
+	 padding-left:0;
+	}
+	.siteLink {
+		a {
+		  color: #868e96;
+		  text-decoration: underline;
+		  text-decoration-color: $secondary;
+
+		  &:hover {
+		  	color: $secondary;
+		  	text-decoration-color:#868e96;
+		  }
+		}
+	}
+
+	.orchardImg {
+		padding-top: 0em;
+		margin-top: -3em;
+	}
+
+	.animated {
+	opacity: 0;
+	}
+}

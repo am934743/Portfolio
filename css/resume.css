@@ -55,12 +55,12 @@ p.lead {
   font-size: 1.5rem;
 }
 
-.social-icons a {
+.fetchSocial a {
   display: inline-block;
   height: 3.5rem;
   width: 3.5rem;
-  background-color: #495057;
-  color: #d2a84c !important;
+  background-color: #333333;
+  color: #fefefe;
   border-radius: 100%;
   text-align: center;
   font-size: 1.5rem;
@@ -68,12 +68,9 @@ p.lead {
   margin-right: 1rem;
 }
 
-.social-icons a:last-child {
-  margin-right: 0;
-}
-
-.social-icons a:hover {
-  background-color: #333333;
+.fetchSocial a:hover {
+  background-color: #d2a84c;
+  color: #333333;
 }
 
 .dev-icons {
@@ -96,6 +93,10 @@ p.lead {
 
 #sideNav .navbar-nav .nav-item .nav-link:hover {
   color: #d2a84c !important;
+}
+
+#sideNav .navbar-toggler {
+  float: right;
 }
 
 #sideNav .navbar-toggler:focus {
@@ -158,6 +159,16 @@ p.lead {
   }
 }
 
+.logoImage {
+  width: 100%;
+}
+
+@media (max-width: 991.98px) {
+  .navbar-brand {
+    width: 50%;
+  }
+}
+
 section.resume-section {
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
@@ -198,4 +209,34 @@ a {
 
 a:hover, a:focus, a:active {
   color: #0d0d0d;
+}
+
+#portfolio {
+  max-width: 100vw;
+}
+
+#portfolio ul {
+  padding-left: 0;
+}
+
+#portfolio .siteLink a {
+  color: #868e96;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #d2a84c;
+  text-decoration-color: #d2a84c;
+}
+
+#portfolio .siteLink a:hover {
+  color: #d2a84c;
+  -webkit-text-decoration-color: #868e96;
+  text-decoration-color: #868e96;
+}
+
+#portfolio .orchardImg {
+  padding-top: 0em;
+  margin-top: -3em;
+}
+
+#portfolio .animated {
+  opacity: 0;
 }
