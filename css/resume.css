@@ -195,6 +195,10 @@ section.resume-section .resume-item .resume-date {
   }
 }
 
+.animated {
+  opacity: 0;
+}
+
 .bg-primary {
   background-color: #333333 !important;
 }
