@@ -244,3 +244,9 @@ a:hover, a:focus, a:active {
 #portfolio .animated {
   opacity: 0;
 }
+
+@media (max-width: 768px) {
+  .orchardImg {
+    padding-top: 3.5em !important;
+  }
+}
